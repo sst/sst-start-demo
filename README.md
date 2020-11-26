@@ -63,15 +63,16 @@ $ npx sst start
 
 The first time this is run, it'll take a minute or two to deploy the `sst start` debug stack and the demo app. Once complete, you should see something like this:
 
-``` bash
-Stack prod-sst-start-demo
+```
+Stack dev-sst-start-demo-sample
+  Status: deployed
   Outputs:
     ApiEndpoint: https://dgib3y82wi.execute-api.us-east-1.amazonaws.com
 ```
 
 Head over to the URL (`https://dgib3y82wi.execute-api.us-east-1.amazonaws.com`) in your browser. You should see a `Hello World` message and a couple of log messages in your terminal. Including something like this:
 
-``` bash
+```
 Logging from inside the API Lambda for route: GET /
 ...
 Logging from inside the SNS Lambda with event message: "Hello from the API Lambda"
@@ -89,7 +90,7 @@ Finally, you can either deploy this app.
 $ npx sst deploy
 ```
 
-Or to remove all the deployed resources (including the debug stack).
+And to remove all the deployed resources (including the debug stack).
 
 ``` bash
 $ npx sst remove
