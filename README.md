@@ -21,12 +21,19 @@ Currently, `sst start` only supports Node.js.
 
 ## Demo
 
-This demo app deploys a simple Serverless application with:
+The demo app deploys a simple Serverless application with the following:
 
 - An API Gateway endpoint
 - An SNS topic
 - A Lambda function (`api.js`) that responds to the API and sends a message to the SNS topic
 - A Lambda function (`sns.js`) that subscribes to the SNS topic
+
+This is a simple CDK app with one key modification to the Lambda functions. Instead of using `cdk.lambda.Function`, it uses `sst.Function`.
+
+``` diff
+- cdk.lambda.Function
++ sst.Function
+```
 
 So once you run `sst start` you'll get a deployed endpoint (say `https://dgib3y82wi.execute-api.us-east-1.amazonaws.com`). Any requests to this endpoint will run the the `api.js` on your local machine, then send a message to the SNS topic which in turn will run `sns.js` on your local.
 
@@ -74,7 +81,7 @@ These are `console.log` messages printed directly from the local versions of you
 
 Now try editing, `src/api.js` or `src/sns.js` and refresh the above URL again.
 
-### Wrapping Up
+## Wrapping up
 
 Finally, you can either deploy this app.
 
