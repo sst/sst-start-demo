@@ -64,7 +64,8 @@ $ npx sst start
 The first time this is run, it'll take a minute or two to deploy the `sst start` debug stack and the demo app. Once complete, you should see something like this:
 
 ```
-Stack prod-sst-start-demo
+Stack dev-sst-start-demo-sample
+  Status: deployed
   Outputs:
     ApiEndpoint: https://dgib3y82wi.execute-api.us-east-1.amazonaws.com
 ```
