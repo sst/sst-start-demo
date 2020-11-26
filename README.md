@@ -1,8 +1,8 @@
-# SST Start Demo
+# `sst start`
 
 A sample project to demo the new `sst start` command. This repo was bootstrapped with [Serverless Stack Toolkit (or SST)](https://github.com/serverless-stack/serverless-stack). SST is an extension of [AWS CDK](https://aws.amazon.com/cdk/) and is designed for developing Serverless apps on AWS.
 
-## `sst start`
+---
 
 The new `sst start` command starts up a local development environment that opens a WebSocket connection to your deployed app and proxies any Lambda requests to your local machine. This allows you to:
 
