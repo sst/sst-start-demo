@@ -90,7 +90,7 @@ Finally, you can either deploy this app.
 $ npx sst deploy
 ```
 
-Or to remove all the deployed resources (including the debug stack).
+And to remove all the deployed resources (including the debug stack).
 
 ``` bash
 $ npx sst remove
