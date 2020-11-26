@@ -11,7 +11,6 @@
     "url": "https://github.com/serverless-stack/sst-start-demo.git"
   },
   "scripts": {
-    "test": "sst test",
     "start": "sst start",
     "build": "sst build",
     "deploy": "sst deploy",
