@@ -13,7 +13,7 @@ The new `sst start` command starts up a local development environment that opens
 - And Lambda IAM permissions, so if a Lambda fails on AWS due to lack of IAM permissions, it would fail locally as well.
 - And it's fast! There's nothing to deploy when you make a change!
 
-<img src="https://raw.githubusercontent.com/serverless-stack/sst-start-demo/master/sst-start-screencast.gif" width="601" />
+<img src="https://raw.githubusercontent.com/serverless-stack/sst-start-demo/master/sst-start-screencast.gif" width="678" />
 
 Note that, everything lives in your AWS account and local machine. No 3rd party services like ngrok or Localtunnel are used.
 
