@@ -13,13 +13,15 @@ The new `sst start` command starts up a local development environment that opens
 - And Lambda IAM permissions, so if a Lambda fails on AWS due to lack of IAM permissions, it would fail locally as well.
 - And it's fast! There's nothing to deploy when you make a change!
 
-<img src="https://raw.githubusercontent.com/serverless-stack/sst-start-demo/master/sst-start-screencast.gif" width="678" />
+[![sst start](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.gif)](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.mp4)
 
 Note that, everything lives in your AWS account and local machine. No 3rd party services like ngrok or Localtunnel are used.
 
 A caveat is that, you can only have one `sst start` session open per stage. Meaning two people cannot actively develop on the same stage (or environment) of an app at the same time.
 
 Currently, `sst start` only supports Node.js.
+
+[**View the SST docs**](https://docs.serverless-stack.com).
 
 ## Demo
 
@@ -104,4 +106,4 @@ Feel free to send us any feedback or let us know if you have any questions — [
 
 ## Community
 
-[Follow us on Twitter](https://twitter.com/ServerlessStack), [join our chatroom](https://gitter.im/serverless-stack/Lobby), or [post on our forums](https://discourse.serverless-stack.com).
+[Follow us on Twitter](https://twitter.com/ServerlessStack), [join us on Slack][slack], [post on our forums](https://discourse.serverless-stack.com), and [subscribe to our newsletter](https://emailoctopus.com/lists/1c11b9a8-1500-11e8-a3c9-06b79b628af2/forms/subscribe).
