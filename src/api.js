@@ -1,7 +1,8 @@
-const AWS = require("aws-sdk");
+import AWS from "aws-sdk";
+
 const sns = new AWS.SNS();
 
-exports.handler = async function (event) {
+export async function handler(event) {
   console.log(
     `Logging from inside the API Lambda for route: ${event.routeKey}`
   );
@@ -19,4 +20,4 @@ exports.handler = async function (event) {
     body: "Hello World",
     headers: { "Content-Type": "text/plain" },
   };
-};
+}
