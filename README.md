@@ -6,14 +6,14 @@ A sample project to demo the new `sst start` command. This repo was bootstrapped
 
 The new `sst start` command starts up a local development environment that opens a WebSocket connection to your deployed app and proxies any Lambda requests to your local machine. This allows you to:
 
+[![sst start](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.gif)](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.mp4)
+
 - Work on your Lambda functions locally
 - While, interacting with your entire deployed AWS infrastructure
 - Supports all Lambda triggers, so there's no need to mock API Gateway, SQS, SNS, etc.
 - Supports real Lambda environment variables
 - And Lambda IAM permissions, so if a Lambda fails on AWS due to lack of IAM permissions, it would fail locally as well.
 - And it's fast! There's nothing to deploy when you make a change!
-
-[![sst start](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.gif)](https://d1ne2nltv07ycv.cloudfront.net/SST/sst-start-demo/sst-start-demo-2.mp4)
 
 Note that, everything lives in your AWS account and local machine. No 3rd party services like ngrok or Localtunnel are used.
 
