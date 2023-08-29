@@ -99,7 +99,3 @@ And to remove all the deployed resources (including the debug stack).
 ``` bash
 $ npx sst remove
 ```
-
-## Community
-
-[Follow us on Twitter](https://twitter.com/ServerlessStack), [join us on Slack][slack], [post on our forums](https://discourse.serverless-stack.com), and [subscribe to our newsletter](https://emailoctopus.com/lists/1c11b9a8-1500-11e8-a3c9-06b79b628af2/forms/subscribe).
