@@ -85,11 +85,3 @@ Logging from inside the SNS Lambda with event message: "Hello from the API Lambd
 These are `console.log` messages printed directly from the local versions of your Lambda function.
 
 Now try editing, `src/api.js` or `src/sns.js` and refresh the above URL again.
-
-## Wrapping up
-
-Finally, you can either deploy this app.
-
-``` bash
-$ npx sst deploy
-```
