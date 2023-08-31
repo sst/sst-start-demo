@@ -93,9 +93,3 @@ Finally, you can either deploy this app.
 ``` bash
 $ npx sst deploy
 ```
-
-And to remove all the deployed resources (including the debug stack).
-
-``` bash
-$ npx sst remove
-```
