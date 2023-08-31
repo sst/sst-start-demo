@@ -99,7 +99,3 @@ And to remove all the deployed resources (including the debug stack).
 ``` bash
 $ npx sst remove
 ```
-
-## Feedback
-
-Feel free to send us any feedback or let us know if you have any questions — [contact@anoma.ly](mailto:contact@anoma.ly)
