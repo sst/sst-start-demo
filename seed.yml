@@ -1,2 +1,3 @@
 pull_request:
-  deploy_draft: false
+  deploy_drafts: false
+  deploy_pushes: false
